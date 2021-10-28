@@ -1,0 +1,65 @@
+#Hello{
+	background-color: #1191FF;
+	position:absolute;
+	top:146px;
+	left:77px;
+	width:876px;
+	height:450px;
+	text-align:center;
+	font-size:25px;
+}
+.AnimeBody{
+	position:absolute;
+	left:77px;
+	top: 146px;
+	margin-top:-150%;
+	width:876px;
+	height:480px;
+	text-align: center;
+	background-color: #1191FF;
+	transition: all .8s ease-in-out;
+}
+.AnimeBody:target{
+	margin-top:0%;
+}
+.title{
+	font-size:30px;
+	margin:20px;
+}
+#Hello p{
+	margin:30px;
+}
+div#Anime img{
+	margin:17px;
+	width:293px;
+}
+div#Anime{
+	position:absolute;
+	top:130px;
+	left:945px;
+}
+#prev{
+	height:80px;
+	position:absolute;
+	top:295px;
+	left:-5px;
+}
+#next{
+	height:80px;
+	position:absolute;
+	top:292px;
+	left:1265px;
+}
+.plot{
+	font-size:18px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.comment{
+	border: dotted 1px black;
+	background-color: #FFA962;
+	font-size: 15px;
+	padding:10px;
+	margin-left:40px;
+	margin-right:40px;
+}
