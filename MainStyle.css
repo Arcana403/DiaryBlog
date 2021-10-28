@@ -1,0 +1,54 @@
+body{
+	background-color: #173AFF;
+}
+#Header{
+	background-color: #929DFF;
+	height:120px;
+	width:1366px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+img#Logo{
+	height: 95px;
+	width: 95px;
+	margin: 10px;
+	padding:2px;
+	float:left;
+}
+#Header h1{
+	font-size:60px;
+	position: absolute;
+	top:-23px;
+	left:160px;
+}
+p#Time{
+	font-size:50px;
+	color:black;
+	font-weight:bold;
+	position:absolute;
+	top: -34px;
+	left:880px;
+	text-align:center;
+	padding:5px;
+	float:right;
+}
+p#Time sub{
+	font-size:20px;
+}
+#back{
+	height:80px;
+	position:fixed;
+	top:530px;
+	left:740px;
+}
+#forward{
+	height:80px;
+	position:fixed;
+	top:527px;
+	left:1175px;
+}
+a{
+	text-decoration:none;
+	color:cyan;
+}

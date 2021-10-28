@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>#Rewind (My Blog): Home</title>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Philip Angelo Y. Dulva">
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+	<link rel="stylesheet" type="text/css" href="MainStyle.css">
+	<link rel="icon" href="Images/icon.png">
+	<script src="Home.js"></script>
+	<script src="Main.js"></script>
+</head>
+<body onLoad="intro()">
+	<div id="Header">
+		<a href="Index.html"><img src="Images/logo.png" id="Logo" alt="Logo"></a>
+		<h1>Home Page</h1>
+		<p id="Time"></p>
+	</div>
+	<div id="intro">
+		<p id="Welcome">Welcome to my blog.</p><br>
+		<p><b id="greeting">Greetings</b> to you, <b id="name">dear visitor</b> and welcome to my blog. Technically, since this is my blog, it is full of things about me and the 15 years I have spent on living.</p>
+		<p>You'll read interesting stories of my childhood and learn new things about me that you might not know. I have written every single thing that I remember in this 15 years, from the day I was born to the time as of it is now.</p>
+		<p>Oh wait, I have not introduced myself yet haven't I. Well the name's <a href="About.html">Philip Angelo Y. Dulva</a> and again welcome to my blog.</p>
+	</div>
+	<div id="rewind">
+		<a id="articles" href="Articles.html#2001"><img src="Images/Years/2001.png" id="picArticle" alt="Article Picture" onmouseover="slideShow()" onmouseout="backImage()"></a>
+	</div>
+	<img src="Images/Back.png" id="back" alt="Going back....." onClick="backYear()">
+	<img src="Images/Forward.png" id="forward" alt="Moving forward....." onClick="forwardYear()">
+</body>
+</html>

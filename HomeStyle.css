@@ -1,0 +1,29 @@
+
+#intro{
+	float:left;
+	background-color: #1191FF;
+	position:absolute;
+	top:146px;
+	left:27px;
+	width:676px;
+	height:450px;
+	text-align:center;
+	font-size:25px;
+}
+#intro p{
+	margin:10px;
+}
+#Welcome{
+	font-size:40px;
+	font-weight:bold;
+}
+div#rewind img{
+	margin:17px;
+	width:540px;
+	height:360px;
+}
+div#rewind{
+	position:absolute;
+	top:130px;
+	left:710px;
+}

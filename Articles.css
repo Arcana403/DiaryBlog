@@ -1,0 +1,38 @@
+#articleBody{
+	background-color:#1191FF;
+	width:670px;
+	position:absolute;
+	top:161px;
+	left:30px;
+}
+.articles{
+	background-color: #FFA962;
+	width:650px;
+	margin:10px;
+}
+#articleBody h1{
+	font-size:50px;
+	text-align:center;
+	margin:20px;
+}
+#articleBody p{
+	text-align:center;
+	width:630px;
+	margin:10px;
+	font-size:19px;
+}
+#imagesBody img{
+	width:480px;
+	height:360px;
+	margin:1px;
+}
+#imagesBody{
+	position:fixed;
+	top:160px;
+	left:755px;
+}
+#articleBody p.entry{
+	font-size:14px;
+	font-weight: bold;
+	color: firebrick;
+}
